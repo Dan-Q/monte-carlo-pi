@@ -1,6 +1,8 @@
 # monte-carlo-pi
 A visual Javascript implementation of the Monte Carlo method being used to calculate Pi.
 
+For more information on how this came to be written, see https://danq.me/2015/06/14/calculating-pi/.
+
 ## Usage
 
 Open monte-carlo-pi.html in a modern web browser (definitely NOT IE8).
@@ -23,8 +25,8 @@ Similarly, any point for which x<sup>2</sup> + y<sup>2</sup> is *greater* than
 
 The ratio of the area inside a circle relative to the area outside a circle but
 inside the smallest square that encloses that circle is pi/4. Therefore, if we
-choose points at random within the square graph paper, we should expect four
-times as many of them to fall *within* the circle as fall *outside* it. If we
+choose points at random within the square graph paper, we should expect pi/4
+of them to fall *within* the circle as opposed to *outside* it. If we
 add *many* random points to the graph paper and keep a count of (a) how many
 we add and (b) for how many x<sup>2</sup> + y<sup>2</sup> is less than 1, we
 can divide the latter by the former and then multiply by 4 to get an approximate
